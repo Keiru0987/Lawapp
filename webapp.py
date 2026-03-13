@@ -7,7 +7,7 @@ import bz2
 import pandas as pd
 from nltk.stem.porter import PorterStemmer
 import nltk
-# nltk.download('stopwords')
+nltk.download('stopwords')
 import streamlit as st
 import pandas as pd
 import re
@@ -17,13 +17,13 @@ import bz2
 import pandas as pd
 from nltk.stem.porter import PorterStemmer
 import nltk
-# nltk.download('stopwords')
+nltk.download('stopwords')
 
 st.markdown("""
 <style>
 .stTextInput > div > div > input {
     background-color: white !important;
-    color: black !important;
+    color: white !important;
 }
 
 .stTextInput input {
