@@ -19,24 +19,7 @@ from nltk.stem.porter import PorterStemmer
 import nltk
 nltk.download('stopwords')
 
-st.markdown("""
-<style>
-.stTextInput > div > div > input {
-    background-color: white !important;
-    color: white !important;
-}
 
-.stTextInput input {
-    background-color: white !important;
-    color: black !important;
-}
-
-textarea {
-    background-color: white !important;
-    color: black !important;
-}
-</style>
-""", unsafe_allow_html=True)
 
 
 
