@@ -8,27 +8,6 @@ import pandas as pd
 from nltk.stem.porter import PorterStemmer
 import nltk
 nltk.download('stopwords')
-st.markdown("""
-<style>
-/* Text input fields */
-.stTextInput > div > div > input {
-    background-color: white !important;
-    color: black !important;
-}
-
-/* Password fields */
-.stTextInput input {
-    background-color: white !important;
-    color: black !important;
-}
-
-/* Text area (case study box) */
-textarea {
-    background-color: white !important;
-    color: black !important;
-}
-</style>
-""", unsafe_allow_html=True)
 
 conn = sqlite3.connect('data.db')
 c = conn.cursor()
