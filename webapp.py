@@ -87,7 +87,7 @@ elif choice == "Login":
     Email = st.sidebar.text_input("Email")
     password = st.sidebar.text_input("Password",type='password')
     regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
-    if st.sidebar.checkbox("Login"):
+    if st.sidebar.button("Login"):
         if re.fullmatch(regex, Email):
             if Email=="a@a.com" and password=="123":
                 st.success("Welcome to Admin")
