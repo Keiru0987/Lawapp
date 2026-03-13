@@ -8,20 +8,6 @@ import pandas as pd
 from nltk.stem.porter import PorterStemmer
 import nltk
 nltk.download('stopwords')
-import streamlit as st
-import pandas as pd
-import re
-import sqlite3 
-import pickle
-import bz2
-import pandas as pd
-from nltk.stem.porter import PorterStemmer
-import nltk
-nltk.download('stopwords')
-
-
-
-
 
 conn = sqlite3.connect('data.db')
 c = conn.cursor()
